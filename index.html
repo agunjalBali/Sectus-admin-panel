@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Sectus Admin panel </title>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Covid List</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Add Covid Patient</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header ">
+                <div class="col-7">
+                    <h1>SECTUS ADMIN PANEL</h1>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+
+        <div class="row row-content">
+          
+           
+        <div class="row row-content">
+           <div class="col-12">
+              <h3>Add Covid Patient</h3>
+           </div>
+            <div class="col-12 col-md-9">
+                <form>
+                    
+                    <div class="form-group row">
+                        <label for="telnum" class="col-12 col-md-4 col-form-label">Registered Phone number</label>
+                       
+                        <div class="col-7 col-md-8">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    
+                   
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-4 col-form-label">Remarks</label>
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="6"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-5 col-md-10">
+                            <button type="submit" class="btn btn-primary">Add patient to database</button>
+                        </div>
+                    </div>
+                </form>          
+              </div>
+             <div class="col-12 col-md">
+            </div>
+       </div>
+
+    </div>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
